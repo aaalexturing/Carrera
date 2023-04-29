@@ -2,6 +2,30 @@ body {
     background-color: #5f6d7e;
   }
 
+#imgss{
+
+    border-radius: 100px 100px / 200px;
+
+
+}
+
+#imagenes-menu{
+
+    float: right;
+    border-radius: 100px 100px / 200px;
+    background: whitesmoke;
+    
+
+}
+
+#zona-menu{
+    border-radius: 100px 100px / 200px;
+    width: 100%;
+    background: whitesmoke;
+    color: black;
+
+}
+
 #zona-encabezado { 
     width: 95%;
 	background: #35495e; 
@@ -9,12 +33,14 @@ body {
     font-family: courgette;
     text-align: center;
     font-size: 20px;
+    border-radius: 100px 100px / 200px;
 }
 
 #zona-imagenes { 
     width: 95%;
 	background: #347474; 
     text-align: center;
+    border-radius: 100px 100px / 200px;
 }
 
 #zona-cuerpo-nvidia { 
@@ -24,6 +50,7 @@ body {
     font-family: courgette;
     text-align: center;
     font-size: 25px;
+    border-radius: 100px 100px / 200px;
 } 
 
 #zona-cuerpo-amd { 
@@ -33,12 +60,16 @@ body {
     font-family: courgette;
     text-align: center;
     font-size: 25px;
+    border-radius: 100px 100px / 200px;
 }
 
 #zona-final { 
-    width: 95%;
+    width: 20%;
 	background: #35495e; 
     color: white;
     font-family: courgette;
     font-size: 20px;
+    border-radius: 100px 100px / 200px;
+    text-align: center;
+    float: right;
 }
