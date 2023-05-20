@@ -31,18 +31,18 @@
 }
 
 .texto-animado {
-    font-size: 17px; /* Tamaño de fuente inicial */
-    transition: font-size 0.3s ease; /* Ajusta la duración y el efecto de transición según tus necesidades */
+    font-size: 17px; 
+    transition: font-size 0.3s ease; 
   }
 
   .texto-animado:hover {
-    transform: scale(1.1); /* Ajusta el valor de escala según el grado de agrandamiento deseado */
+    transform: scale(1.1); 
   } 
   
   
   @media screen and (max-width: 991px) {
     .texto-animado:hover {
-        transform: scale(1.01); /* Ajusta el valor de escala según el grado de agrandamiento deseado */
+        transform: scale(1.01); 
       }
     }
 
@@ -55,13 +55,13 @@
 
 
 .imagen-movimiento {
-  width: 400px; /* Ajusta el tamaño según tus necesidades */
+  width: 400px; 
   height: 400px;
-  animation: animacion-imagen-entrada 2s linear; /* Ajusta la duración de la animación según tus necesidades */
+  animation: animacion-imagen-entrada 2s linear; 
 }
 
 .container-fluid {
-  animation: animacion-imagen-entrada 2s linear; /* Ajusta la duración de la animación según tus necesidades */
+  animation: animacion-imagen-entrada 2s linear; 
 }
 
 @keyframes animacion-imagen-entrada {
@@ -73,11 +73,11 @@
 
 .imagen-animada2 {
     animation: animacion-imagen-entrada 2s linear;
-    transition: transform 0.3s ease; /* Ajusta la duración y el efecto de transición según tus necesidades */
+    transition: transform 0.3s ease; 
   }
 
   .imagen-animada2:hover {
-    transform: scale(1.1); /* Ajusta el valor de escala según el grado de agrandamiento deseado */
+    transform: scale(1.1); 
   }
 
   @keyframes fadeOut {
@@ -214,12 +214,12 @@
     border-radius: 10px 10px / 20px;
     top: -13px;
     left: 100%;
-    margin-left: 50px; /* Espacio entre la imagen y el texto */
+    margin-left: 50px; 
     padding: 14px 16px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     overflow-y: auto;
-    max-height: 500px; /* Altura máxima del contenedor con scroll */
+    max-height: 500px; 
     text-align: justify;
     width: 375px;
     height: 200px;
@@ -254,12 +254,12 @@ position: absolute;
 border-radius: 10px 10px / 20px;
 top: -13px;
 left: 100%;
-margin-left: 50px; /* Espacio entre la imagen y el texto */
+margin-left: 50px; 
 padding: 14px 16px;
 background-color: #ffffff;
 border: 1px solid #ffffff;
 overflow-y: auto;
-max-height: 500px; /* Altura máxima del contenedor con scroll */
+max-height: 500px; 
 text-align: justify;
 width: 375px;
 height: 200px;
@@ -601,7 +601,7 @@ height: 200px;
 }
 
 
-    /* off-texto */
+    /* off-text */
 
 .enfermedad1 {
     position: relative;
