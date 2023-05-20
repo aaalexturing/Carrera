@@ -539,7 +539,7 @@ height: 200px;
   .Lobby2 {
     color: #777;
     line-height: 2;
-    font-size: 20px;
+    font-size: 15px;
     font-family: handlee;
     justify-content: center;
     align-items: center;
@@ -573,7 +573,7 @@ height: 200px;
     height: 200px;
     background-color: #f9f9f9;
     position: fixed;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: flotar 3s ease-in-out infinite;
